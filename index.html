@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>plant website</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <div class="header-1">
+        <div class="share">
+          <span> follow us : </span>
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+
+        <div class="call">
+          <span> call us : </span>
+          <a href="#">+123-456-7890</a>
+        </div>
+      </div>
+
+      <div class="header-2">
+        <a href="#" class="logo"> <i class="fas fa-seedling"></i> LOGO </a>
+
+        <form action="" class="search-bar-container">
+          <input type="search" id="search-bar" placeholder="search here..." />
+          <label for="search-bar" class="fas fa-search"></label>
+        </form>
+      </div>
+
+      <div class="header-3">
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="#category">category</a>
+          <a href="#product">product</a>
+        </nav>
+
+        <div class="icons">
+          <a href="#" id="cartIcon" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-user-circle"></a>
+        </div>
+
+        <!--------------CART----------------->
+
+        <div class="cart">
+          <h2 class="cartTitle">Your Cart</h2>
+
+          <!--------------------CONTENT----------->
+          <div class="cartContent">
+            <!-- <div class="cartBox">
+              <img src="./images/product1.jpg" class="cartImg" />
+              <div class="detailBox">
+                <div class="cartProductTitle">Latest Product</div>
+                <div class="cartPrice">14.70$</div>
+                <input type="number" value="1" class="cartQuantity" />
+              </div>
+              <i class="fa-solid fa-trash cart-remove"></i>
+            </div> -->
+          </div>
+
+          <!--------------TOTAL------------------->
+          <div class="total">
+            <div class="totalTitle">Total</div>
+            <div class="totalPrice">$0</div>
+          </div>
+
+          <!------------BUY  BUTTON------------------->
+          <button type="button" class="btnBuy">Buy Now</button>
+
+          <!-------------CLOSE CART---------------->
+          <i class="fa-solid fa-xmark" id="cartClose"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="swiper-container home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box" style="background: url(images/slider1.jpg)">
+              <div class="content">
+                <span>upto 75% off</span>
+                <h3>plant big sale special offer</h3>
+                <a href="#" class="btn">shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box" style="background: url(images/slider2.jpg)">
+              <div class="content">
+                <span>upto 45% off</span>
+                <h3>plant make people happy</h3>
+                <a href="#" class="btn">shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box" style="background: url(images/slider3.jpg)">
+              <div class="content">
+                <span>upto 65% off</span>
+                <h3>decorate your home now</h3>
+                <a href="#" class="btn">shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- banner section starts  -->
+
+    <section class="banner-container">
+      <div class="banner">
+        <img src="images/banner1.jpg" alt="" />
+        <div class="content">
+          <span>new arrivals</span>
+          <h3>house plants</h3>
+          <a href="#" class="btn">shop now</a>
+        </div>
+      </div>
+      <div class="banner">
+        <img src="images/banner2.jpg" alt="" />
+        <div class="content">
+          <span>new arrivals</span>
+          <h3>office plants</h3>
+          <a href="#" class="btn">shop now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner section ends -->
+
+    <!-- category section starts  -->
+
+    <section class="category" id="category">
+      <h1 class="heading">shop by category</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/cat1.jpg" alt="" />
+          <div class="content">
+            <h3>bonsai</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/cat2.jpg" alt="" />
+          <div class="content">
+            <h3>plants for house</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/cat3.jpg" alt="" />
+          <div class="content">
+            <h3>plants for office</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/cat4.jpg" alt="" />
+          <div class="content">
+            <h3>gift plants</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- category section ends -->
+
+    <!-- product section starts  -->
+
+    <section class="product" id="product">
+      <h1 class="heading">new products</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <span class="discount">-10%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product1.jpg" alt="" class="product-img" />
+          <h3 class="productTitle">latest plants1</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="quantity">
+            <span> quantity : </span>
+            <input
+              class="quantityVal"
+              type="number"
+              min="1"
+              max="100"
+              value="1"
+            />
+          </div>
+          <div class="price">$14.70 <span>$18.20</span></div>
+          <a href="#" class="btn add-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-25%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product2.jpg" alt="" class="product-img" />
+          <h3 class="productTitle">latest plants2</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="quantity">
+            <span> quantity : </span>
+            <input
+              class="quantityVal"
+              type="number"
+              min="1"
+              max="100"
+              value="1"
+            />
+          </div>
+          <div class="price">$14.70 <span>$18.20</span></div>
+          <a href="#" class="btn add-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-7%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product3.jpg" alt="" class="product-img" />
+          <h3 class="productTitle">latest plants3</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="quantity">
+            <span> quantity : </span>
+            <input
+              class="quantityVal"
+              type="number"
+              min="1"
+              max="100"
+              value="1"
+            />
+          </div>
+          <div class="price">$14.70 <span>$18.20</span></div>
+          <a href="#" class="btn add-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-4%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product4.jpg" alt="" class="product-img" />
+          <h3 class="productTitle">latest plants4</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="quantity">
+            <span> quantity : </span>
+            <input
+              class="quantityVal"
+              type="number"
+              min="1"
+              max="100"
+              value="1"
+            />
+          </div>
+          <div class="price">$14.70 <span>$18.20</span></div>
+          <a href="#" class="btn add-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-13%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product5.jpg" alt="" class="product-img" />
+          <h3 class="productTitle">latest plants5</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="quantity">
+            <span> quantity : </span>
+            <input
+              class="quantityVal"
+              type="number"
+              min="1"
+              max="100"
+              value="1"
+            />
+          </div>
+          <div class="price">$14.70 <span>$18.20</span></div>
+          <a href="#" class="btn add-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-20%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product6.jpg" alt="" class="product-img" />
+          <h3 class="productTitle">latest plants6</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="quantity">
+            <span> quantity : </span>
+            <input
+              class="quantityVal"
+              type="number"
+              min="1"
+              max="100"
+              value="1"
+            />
+          </div>
+          <div class="price">$14.70 <span>$18.20</span></div>
+          <a href="#" class="btn add-cart">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- product section ends -->
+
+    <!-- .icons section starts  -->
+
+    <section class="icons-container">
+      <div class="icon">
+        <img src="images/icon1.png" alt="" />
+        <div class="content">
+          <h3>free shipping</h3>
+          <p>Free shipping on order</p>
+        </div>
+      </div>
+      <div class="icon">
+        <img src="images/icon2.png" alt="" />
+        <div class="content">
+          <h3>100% Money Back</h3>
+          <p>You’ve 30 days to Return</p>
+        </div>
+      </div>
+      <div class="icon">
+        <img src="images/icon3.png" alt="" />
+        <div class="content">
+          <h3>Payment Secure</h3>
+          <p>100% secure payment</p>
+        </div>
+      </div>
+      <div class="icon">
+        <img src="images/icon4.png" alt="" />
+        <div class="content">
+          <h3>Support 24/7</h3>
+          <p>Contact us anytime</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- .icons section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>about us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo hic eum
+            veniam aut nisi. Libero autem nemo amet recusandae eveniet?
+          </p>
+        </div>
+        <div class="box">
+          <h3>branch locations</h3>
+          <a href="#">india</a>
+          <a href="#">USA</a>
+          <a href="#">japan</a>
+          <a href="#">france</a>
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">category</a>
+          <a href="#">product</a>
+        </div>
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">instagram</a>
+          <a href="#">linked</a>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        created by <span> ahdeslam </span> | all rights reserved!
+      </h1>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- scroll top button  -->
+    <a href="#home" class="scroll-top fas fa-angle-up"></a>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="./script.js"></script>
+  </body>
+</html>
