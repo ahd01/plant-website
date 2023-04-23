@@ -495,7 +495,7 @@ section {
   top: 0;
   right: 0;
   right: -100%;
-  width: 50%;
+  width: 30%;
   height: 50%;
   overflow-y: auto;
   overflow-x: hidden;
@@ -598,6 +598,10 @@ section {
   html {
     font-size: 55%;
   }
+  .cart {
+    width: 40%;
+    height: 50%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -609,6 +613,10 @@ section {
 
   section {
     padding: 1.5rem;
+  }
+  .cart {
+    width: 50%;
+    height: 50%;
   }
 }
 
@@ -670,6 +678,10 @@ section {
   .home .home-slider .box .content h3 {
     font-size: 4.5rem;
   }
+  .cart {
+    width: 50%;
+    height: 50%;
+  }
 }
 
 @media (max-width: 450px) {
@@ -692,5 +704,9 @@ section {
 
   .deal .row .content .count-down .box span {
     font-size: 1.5rem;
+  }
+  .cart {
+    width: 50%;
+    height: 50%;
   }
 }
